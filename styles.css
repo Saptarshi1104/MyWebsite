@@ -1,0 +1,40 @@
+body{
+text-align: center;
+background: linear-gradient(red,blue,yellow,green,orange);
+background-repeat: no-repeat;
+}
+label{
+text-shadow: 2px 2px #F4511E;
+font-size: 30px;
+font-family: 'Stick', sans-serif;
+}
+#bio{
+padding: 20px;
+font-size: 30px;
+font-family: arial;
+color: chartreuse;
+text-align: center;
+}
+img{
+border-radius: 50%;
+width: 100px;
+}
+#meaning{
+padding: 20px;
+font-size: 30px;
+font-family: arial;
+color: deeppink;
+text-align: center;
+}
+.menu{
+list-style: none;
+font-family: cursive;
+float: right;
+top: 10px;
+right: 30px;
+cursor: pointer;
+color: black;
+}
+.link:hover{
+background-color: dodgerblue;
+}
