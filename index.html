@@ -1,32 +1,200 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title> My Favourite </title>
-<link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <title> My Favourite </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<ul class="menu">
-<li class="link">ABOUT</li>
-<li class="link">MY FAVOURITE HOBBY</li>
-<li class="link">MY WORK</li>
-<li class="link">MY INSPIRATION</li>
-<li class="link">CONTACT</li>
-</ul>
-<label> My hobby is gardening</label>
-<div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Flower_garden%2C_Botanic_Gardens%2C_Churchtown_2.JPG" />
-<div>
-<h1>HI!</h1>
-<div class="line"></div>
-<section>
-<p id="meaning"> I am Saptarshi Mandal.I raed in class 5.My hobby is gardening.So here are a few words about gardening and why I like it!
-Gardening ranges in scale from fruit orchards, to long boulevard plantings with one or more different types of shrubs, trees, and herbaceous plants, to residential back gardens including lawns and foundation plantings, and to container gardens grown inside or outside. Gardening may be very specialized, with only one type of plant grown, or involve a variety of plants in mixed plantings. It involves an active participation in the growing of plants, and tends to be labor-intensive, which differentiates it from farming or forestry.</p>
-</section>
-<div class="line"> </div>
-<section>
-<p id="bio"> I like gardening because I can spend lots of time among trees.Whenever I get some leisure time I rush to the garden and enjoy the lush greenery of the plants and trees.I water the plants daily.Also while I am in the garden few cats come and I also play with them.Everyday several flowers bloom.Sometimes more than 50!But my favourite plant among all of them is the recently bought STRAWBERRY plant.It's hardly a month old,and the most beautifu thing about it is its beautifully shaped leaves.But the oldest trees are 2 christmas trees which are 20 years of age.Among those 100 plants and trees there are 24 rose plants.</p>
-</section>
+    <div>
+    <ul class="menu">
+        <li class="link"><a id="wlt" href="#bio">ABOUT</a></li>
+        <li class="link"><a id="wlt" href="#hobby">MY FAVOURITE HOBBY</a></li>
+        <li class="link"><a id="wlt" href="#stargazing">STARGAZING</a></li>
+        <li class="link"><a id="wlt" href="#work">MY WORK</a></li>
+        <li class="link"><a id="wlt" href="#youtube">YOUTUBE</a></li>
+        <li class="link"><a id="wlt" href="#gamesplay">GAMES I PLAY</a></li>
+        <li class="link"><a id="wlt"href="#games">GAMES AND APPS MADE BY ME</a></li>
+        <li class="link"><a id="wlt"href="#chatbots">CHATBOTS</a></li>
+        <li class="link"><a id="wlt" href="#webs">WEBSITES BUILT BY ME</a></li>
+        <li class="link"><a id="wlt" href="#inspiration">MY INSPIRATION</a></li>
+        <li class="link"><a id="wlt" href="#contact">CONTACT</a></li>
+        <li class="link"><a id="wlt"href="#comment">FEEDBACK</a></li>
+    </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 id="newDate" onload="setDate()"></h2>
+        <div>
+        <h1 id="hier" onmouseover="color()">HI!I AM SAPTARSHI MANDAL AND THIS IS MY WEBSITE</h1>
+        </div>
+            <div class="line"></div>
+            <section id="bio">
+                <h2>My Hobby is Gardening</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Flower_garden%2C_Botanic_Gardens%2C_Churchtown_2.JPG" />
+                <p> I am Saptarshi Mandal.I raed in class 5.My hobby is gardening.So here are a few words about gardening and why I like it!
+                    Gardening ranges in scale from fruit orchards, to long boulevard plantings with one or more different types of shrubs, trees, and herbaceous plants, to residential back gardens including lawns and foundation plantings, and to container gardens grown inside or outside. Gardening may be very specialized, with only one type of plant grown, or involve a variety of plants in mixed plantings. It involves an active participation in the growing of plants, and tends to be labor-intensive, which differentiates it from farming or forestry.
+                    <br>
+                    <br>
+                    <br>
+                    I like gardening because I can spend lots of time among trees.Whenever I get some leisure time I rush to the garden and enjoy the lush greenery of the plants and trees.I water the plants daily.Also while I am in the garden few cats come and I also play with them.Everyday several flowers bloom.Sometimes more than 50!But the oldest trees are 2 christmas trees which are 20 years of age.Among those 100 plants and trees there are 24 rose plants.</p>
+            </section>
+            <section id="hobby">
+                <h1>My Favourite Hobby</h1>
+                <div class="line"></div>
+                <iframe height="500" width="1000" src="https://en.wikipedia.org/wiki/Gardening"></iframe>
+            </section>
+            <section id="work">
+                <h1>My Work</h1>
+                <div class="line"></div>
+                <div>
+                    <label>Here are a few pictures of the flowers in my garden</label>
+                </div>
+                <img id="flower" src="blackrose.jpg" />
+                <img id="flower" src="cocktail.jpg" />
+                <img id="flower" src="hibiscus.jpg" />
+                <img id="flower" src="pinkflowers.jpg" />
+                <img id="flower" src="pinkrose.jpg" />
+                <img id="flower" src="pitunea.jpg" />
+                <img id="flower" src="whiterose.jpg" />
+                <img id="flower" src="yellowrose.jpg" />
+            </section>
+        <section id="stargazing">
+            <h1 id="stargazing">Stargazing</h1>
+            <div class="line"></div>
+            <p>One of my favourite hobbies is stargazing, every night I go to the roof with my telescope and watch stars and the Moon. Some pictures of the things I have observed will be given soon!</p>
+            <p>I also have some apps related to space !They are given below!</p>
+            <div>
+                <a href="https://x.thunkable.com/copy/8a81e85639879be38b67f8f3ee1b0e17">Earth and Moon Gravity App</a>
+            </div>
+            <div>
+                <a href="https://x.thunkable.com/copy/c827f4bb8ecdf67a1608d23a114d6efb">Sun Earth Revolution App</a>
+            </div>
+            <div>
+                <a href="https://x.thunkable.com/copy/71ce595a79c4eaf6ff4980db755822ec">Planet App-1</a>
+            </div>
+            <div>
+                <a href="https://x.thunkable.com/copy/6b9fa5ba341da6373c9af64b8c4660b9">Planet Gravity App</a>
+            </div>
+            <a href="https://x.thunkable.com/copy/911dc6512672f83893c0174318c2beb7">ISS Locator</a>
+        </section>
+        <section id="youtube">
+            <h1 id="tube">Youtube</h1>
+            <div class="line"></div>
+            <img src="https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500" />
+            <p>
+                I have a youtube channel which has nearly 40 videos and 190+ subscribers. It is mostly about recitation and coding apps and games. I first created the channel on February 2019. Some videos even have more than 2K views, with the highest being 5.1K.
+                <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=0_mvoJ7yluI">You can watch that video here!</a>
+                <br>
+                <br>
+                Also I have many coding videos, with the highest viewed is Random Ball Game (390 views)
+                <br>
+                <br>
+                <a href="https://studio.code.org/projects/applab/0MKWvrViTEPhHwUzI2kDuxqDZu5FIwV62Fi8rx-LIVw/">You can play the game at this link</a>
+                <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=anYR2zx7vrs">If you want to watch the video click here</a>
+                <br>
+                <br>
+                In youtube I will also upload the video for this website.
+                <br>
+                Trailer 1 has been uploaded on 26th April 2021
+                <br>
+                You can watch the video just below this text!
+                <br>
+                <iframe width="898" height="506" src="https://www.youtube.com/embed/ZzWzYVZh52I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                Trailer 2 to be uploaded on 2nd May 2021
+                <br>
+                Main Video to be uploaded on 15th May 2021
+            </p>
+        </section>
+        <section id="gamesplay">
+            <h1 id="play">Games I Play</h1>
+            <div class="line"></div>
+            <p>Playing is a good thing, and I play both indoors and outdoors games. Cricket, Football and sometimes I also play Badminton. Talking about indoor games, Chess is my most favourite also I play Carrom. Among all these games I like Cricket and Chess the most. I ususally play chess online through Chess24.</p>
+            <a href="https://chess24.com/en/profile/saptarshithechessking">Visit my Chess24 profile</a>
+            <p id="cricket">Talking about Cricket, it is my most favourite sport, MS Dhoni is my favourite cricketer. I watch cricket matches live on the TV and everyday play cricket.</p>
+            <p id="chess">Coming to chess, My average rating is 1390 (Bullet, Blitz and Classic formats).I love playing chess and I always play it in the morning.One day I even defeated a FIDE master!</p>
+        </section>
+            <section id="games">
+                <h1 id="games">Games</h1>
+                <div class="line"></div>
+                <a href="https://studio.code.org/projects/applab/pYh6yNfkTzqLzjiqBTUunQFZSFpcO_goEbFDQ2oUzeg" target="_blank"></a>
+                <img src="Collect%20Apples.png" />
+                <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/x6LxnRaa0bCvjZGZZirgDEOGxLVPmKrXsfpDWwBXJvY/embed"></iframe>
+                <img src="Brick-O-Meter.png" />
+                <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/9qJMLdh2ArSbmlFpriDOcHph4nf1U3ewY2_d705jko4/embed"></iframe>
+                <img src="Random%20Ball%20Game.png" />
+            </section>
+            <section id="chatbots">
+                <h1>ChatBots</h1>
+                <div class="line"></div>
+                <p id="bot">My Personal Assistant</p>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/19585939-3f35-4aab-a19d-adfa32561f00">
+                </iframe>
+                <p id="bot">COVID-19 Chatbot</p>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/1bb4aade-b81e-4814-aae0-83931aa161dd">
+                </iframe>
+                <p id="bot">Einstein ChatBot</p>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/52cc4997-5b4f-4e37-8b2e-5be2e1819741">
+                </iframe>
+                <p id="bot">Oslo City ChatBot</p>
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/00c69d40-5499-4c43-8778-982414f7f59b">
+                </iframe>
+            </section>
+        <section id="webs">
+            <h1 id="webs">Websites Built By Me</h1>
+            <div class="line"></div>
+            <a href="https://saptarshi1104.github.io/Portfolio/">Some of my web and play store apps are present in this website</a>
+            <div>
+                <a href="https://saptarshi1104.github.io/Console-I/">This is an experiment website of console.log</a>
+            </div>
+        </section>
+            <section id="inspiration">
+                <h1>My Inspiration</h1>
+                <div class="line"></div>
+                <label>Click on the image to view my inspiration</label>
+                <a href="https://en.wikipedia.org/wiki/MS_Dhoni">
+                    <div>
+                        <img id="msd" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Dhoni.png" />
+                    </div>
+                </a>
+                <p>Mahendra Singh Dhoni , is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. Under his captaincy, India won the inaugural 2007 ICC World Twenty20, the 2010 and 2016 Asia Cups, the 2011 ICC Cricket World Cup and the 2013 ICC Champions Trophy. A right-handed middle-order batsman and wicket-keeper, Dhoni is one of the highest run scorers in One Day Internationals (ODIs) with more than 10,000 runs scored and is considered an effective "finisher" in limited-overs formats.He is widely regarded as one of the greatest wicket-keeper batsmen and captains in the history of the game. He was also the first wicket-keeper to effect 100 stumpings in ODI cricket. Dhoni also holds numerous captaincy records such as the most wins by an Indian captain in ODIs and T20Is, and most back-to-back wins by an Indian captain in ODIs. He took over the ODI captaincy from Rahul Dravid in 2007 and led the team to its first-ever bilateral ODI series wins in Sri Lanka and New Zealand. In June 2013, when India defeated England in the final of the Champions Trophy in England, Dhoni became the first captain to win all three ICC limited-overs trophies (World Cup, Champions Trophy and the World Twenty20). After taking up the Test captaincy in 2008, he led the team to series wins in New Zealand and the West Indies, and the Border-Gavaskar Trophy in 2008, 2010 and 2013. In 2009, Dhoni also led the Indian team to number one position for the first time in the ICC Test rankings. In 2013, under Dhoni's captaincy, India became the first team in more than 40 years to whitewash Australia in a Test series. In the Indian Premier League, he captained the Chennai Super Kings to victory at the 2010, 2011 and 2018 seasons, along with wins in the 2010 and 2014 editions of Champions League Twenty20. In 2011. In 2016, a biopic M.S. Dhoni: The Untold Story was made on his life and his cricket career up to the Indian team's win at the 2011 Cricket World Cup.In June 2015, Forbes ranked Dhoni at 23rd in the list of highest paid athletes in the world, estimating his earnings at US$31 million.MS Dhoni announced his retirement from international cricket on 15 August 2020.</p>
+            </section>
+            <section id="contact">
+            <a href="mailto:saptarshim925whjr@gmail.com?Subject=Hello" >
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp;
+                <h3>saptarshim925whjr@gmail.com</h3>
+            </a>
+            <br>
+            <br>
+            </section>
+        <section id="comm">
+            <div>
+                <label>Name: </label>
+            </div>
+            <input id="name"/>
+            <div>
+                <label>Comment: </label>
+            </div>
+            <input id="comment"/>
+            <div>
+                <button id="submit" onclick="blank()">Submit</button>
+            </div>
+        </section>
 </body>
+
 </html>
